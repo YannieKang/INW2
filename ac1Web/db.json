@@ -1,0 +1,47 @@
+{
+    "produtos": [
+    {
+    "id": 1,
+    "descricao": "Detergente",
+    "quantidade": "500ml",
+    "valor": 3.40,
+    "marca": "Ypê"
+    },
+
+    {
+    "id": 2,
+    "descricao": "Água Sanitária",
+    "quantidade": "5l",
+    "valor": 19.65,
+    "marca": "Sanol"
+    },
+    {
+    "id": 3,
+    "descricao": "Lava Roupas",
+    "quantidade": "3l",
+    "valor": 32.84,
+    "marca": "Brilhante"
+    },
+    {
+    "id": 4,
+    "descricao": "Desinfetante",
+    "quantidade": "5l",
+    "valor": 21.80,
+    "marca": "Kalipto"
+    },
+    {
+    "id": 5,
+    "descricao": "Amaciante Puro",
+    "quantidade": "1.5l",
+    "valor": 24.15,
+    "marca": "Downy"
+    },
+    {
+    "id": 6,
+    "descricao": "Limpador Banheiro",
+    "quantidade": "500ml",
+    "valor": 15.49,
+    "marca": "Veja"
+    }
+    ]
+   }
