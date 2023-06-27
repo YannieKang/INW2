@@ -19,7 +19,7 @@ for(let x=0; x<alunos.length; x++){
     if(notas>=5){
         console.log("Aprovado")
     }
-    else(notas<=5){
+    else{
         console.log("Reaprovado")
     }
     
