@@ -1,11 +1,19 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyBrSgGDvHpdRQv3axcgg_tAWD6eCJinzzs",
-    authDomain: "projeto2mibteste-a6649.firebaseapp.com",
-    projectId: "projeto2mibteste-a6649",
-    storageBucket: "projeto2mibteste-a6649.appspot.com",
-    messagingSenderId: "40650118360",
-    appId: "1:40650118360:web:b61682ba372cb60820f3ad"
-  };
+  apiKey: "AIzaSyBrSgGDvHpdRQv3axcgg_tAWD6eCJinzzs",
+  authDomain: "projeto2mibteste-a6649.firebaseapp.com",
+  projectId: "projeto2mibteste-a6649",
+  storageBucket: "projeto2mibteste-a6649.appspot.com",
+  messagingSenderId: "40650118360",
+  appId: "1:40650118360:web:b61682ba372cb60820f3ad"
+};
+
+  firerbase.initializeAoo(firebaseConfig);
+
+  function logout(){
+    firebaseConfig.auth().signOut().then(()=>{
+      alert("Usuario deslogado");
+    })
+  }
 
   const emailField = document.getElementById('email');
   const passwordField = document.getElementById('password');
